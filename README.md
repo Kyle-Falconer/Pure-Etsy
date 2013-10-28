@@ -1,7 +1,7 @@
 Pure-Etsy
 =========
 
-This project is a coding evaluation, given the following requirements:
+### This project is a coding evaluation, given the following requirements:
  
 * Using [Pure](http://purecss.io/), develop a page template for the [Etsy homepage](http://www.etsy.com/).
 
