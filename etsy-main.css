@@ -26,12 +26,13 @@ body > section, body > header, body > footer, body > nav, body > .wrapper #top-n
 body > .wrapper { width: 100%; }
 
 
-.slideshow.wrapper { background-color: #ffffff; height: 300px;}
-.slideshow ul { width: 80%; position: relative; margin: 0 auto; padding-left: 0; list-style: none; }
-.slideshow .product_meta { padding: 100px 0 20px 50px; height: 175px; display: inline-block; position: absolute; }
+.slideshow.wrapper { background-color: #ffffff; height: 300px; }
+.slideshow ul { height: 100%; width: 100%;overflow:hidden; position: relative; margin: 0 auto; padding-left: 0; list-style: none; }
+.slideshow li { height: 100%; width: 100%; }
+.slideshow .product_meta { margin: 0 auto; width: 910px; padding: 100px 20px ; height: 100%; display: block; position: relative; z-index: 10;  }
     .slideshow .product_meta span { display: block; color: #333; font-family: 'Guardian Titlepiece',georgia,serif; font-size: 42px; font-weight: 400; text-shadow: 0 2px 1px rgba(255,255,255,.8); }
     .slideshow .product_meta .pure-button { margin-top: 20px; background: #3f98bb; background: -o-linear-gradient(top,#83c7da 2%,#53aac8 8%,#3f98bb 58%,#3f98bb 95%,#3d92b3); background: -ms-linear-gradient(top,#83c7da 2%,#53aac8 8%,#3f98bb 58%,#3f98bb 95%,#3d92b3); background: -moz-linear-gradient(top,#83c7da 2%,#53aac8 8%,#3f98bb 58%,#3f98bb 95%,#3d92b3); background: -webkit-linear-gradient(top,#83c7da 2%,#53aac8 8%,#3f98bb 58%,#3f98bb 95%,#3d92b3); color: #ffffff; }
-    .slideshow li img { width: 100%; }
+.slideshow li img { height: 100%; position: absolute; top: 0; left: 0; }
 
 .pure-u-1 > h2, .pure-u-1 > p { width: 100%; text-align: center; }
 h2, h3 { font-family: 'Guardian Titlepiece',georgia,serif; color: #333; }
