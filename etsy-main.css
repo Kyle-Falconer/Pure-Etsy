@@ -19,7 +19,7 @@ html { background-color: #EFEFEB; }
 
 #top-nav-container.wrapper { width: 100%; background-color: #ffffff; border-top: 1px solid #d2d2d2; border-bottom: 1px solid #d2d2d2; }
 #top-nav-container > * { width: 80%; margin: 0 auto; display: block; }
-.pure-menu.pure-menu-horizontal > ul { height:auto;}
+.pure-menu.pure-menu-horizontal > ul { height: auto; }
 .pure-menu li a { color: #0192b5 !important; font-size: 14px; font-weight: bold; white-space: nowrap; display: block; height: 36px; vertical-align: middle; padding: 20px 25px 0; }
 
 body > section, body > header, body > footer, body > nav, body > .wrapper #top-nav-container { width: 80%; max-width: 1000px; margin: 0 auto; }
@@ -27,26 +27,31 @@ body > .wrapper { width: 100%; }
 
 
 .slideshow.wrapper { background-color: #ffffff; }
-.slideshow ul { width: 80%; position: relative; margin: 0 auto; list-style: none; }
-.slideshow .product_meta { padding: 100px 0 20px 50px; width: 540px; display: inline-block; position: absolute; }
-.slideshow .product_meta span {display:block; color: #333; font-family: 'Guardian Titlepiece',georgia,serif; font-size: 42px; font-weight: 400;  text-shadow: 0 2px 1px rgba(255,255,255,.8); }
-    .slideshow .product_meta .pure-button {margin-top:20px }
-.slideshow li img { width: 100%; }
+.slideshow ul { width: 80%; position: relative; margin: 0 auto; padding-left: 0;list-style: none; }
+.slideshow .product_meta { padding: 100px 0 20px 50px; height: 175px; display: inline-block; position: absolute; }
+    .slideshow .product_meta span { display: block; color: #333; font-family: 'Guardian Titlepiece',georgia,serif; font-size: 42px; font-weight: 400; text-shadow: 0 2px 1px rgba(255,255,255,.8); }
+    .slideshow .product_meta .pure-button { margin-top: 20px; background: #3f98bb; background: -o-linear-gradient(top,#83c7da 2%,#53aac8 8%,#3f98bb 58%,#3f98bb 95%,#3d92b3); background: -ms-linear-gradient(top,#83c7da 2%,#53aac8 8%,#3f98bb 58%,#3f98bb 95%,#3d92b3); background: -moz-linear-gradient(top,#83c7da 2%,#53aac8 8%,#3f98bb 58%,#3f98bb 95%,#3d92b3); background: -webkit-linear-gradient(top,#83c7da 2%,#53aac8 8%,#3f98bb 58%,#3f98bb 95%,#3d92b3); color: #ffffff; }
+.slideshow li img{ height: 320px; }
 
-.pure-u-1 > h2, .pure-u-1 > p { width:100%; text-align:center;}
-h2, h3 { font-family: 'Guardian Titlepiece',georgia,serif; color: #333;  }
-h2 { font-size: 32px; font-weight: 500; text-shadow: 0 2px 1px rgba(255,255,255,.8);}
+.pure-u-1 > h2, .pure-u-1 > p { width: 100%; text-align: center; }
+h2, h3 { font-family: 'Guardian Titlepiece',georgia,serif; color: #333; }
+h2 { font-size: 32px; font-weight: 500; text-shadow: 0 2px 1px rgba(255,255,255,.8); }
 h3 { font-size: 26px; font-weight: 500; }
 
-.bucket {margin:15px 14px 0 14px ; background-color:#ffffff; padding:5px; height: 340px;}
-    .pure-u-1-3:first-child .bucket { margin-left: 0; }
-    .pure-u-1-3:last-child .bucket { margin-right:0 }
+.bucket { margin: 15px 14px 0 14px; background-color: #ffffff; padding: 5px; height: 340px; }
+.pure-u-1-3.first .bucket { margin-left: 0; }
+.pure-u-1-3.last .bucket { margin-right: 0; }
 
-.page-footer .bucket { background-color: transparent; }
-    .page-footer .bucket img { margin:0 auto; display: block;}
-    .page-footer .bucket h3, .page-footer .bucket p { text-align:center;}
-    .page-footer .bucket h3{ font-family: 'Guardian Titlepiece',georgia,serif; color: #333; font-size: 32px; font-weight: 500; text-shadow: 0 2px 1px rgba(255,255,255,.8); }
-    .page-footer .bucket p {color:#888; }
+.listing-info a.listing-title { text-decoration: none; color: #888; font-size: 12px; line-height: 16px; }
+    .listing-info a.listing-title:hover { text-decoration: underline; }
+.listing-info .listing-price { color: #78c042; text-align: right; white-space: nowrap; font-size: 13px; float: right; }
+    .listing-info .listing-price .currency-code { text-transform: capitalize; font-size: 10px; }
+
+.page-footer .bucket { background-color: #EFEFEB; margin-top: 80px; margin-bottom: 40px; }
+    .page-footer .bucket img { margin: 0 auto; display: block; }
+    .page-footer .bucket h3, .page-footer .bucket p { text-align: center; }
+    .page-footer .bucket h3 { font-family: 'Guardian Titlepiece',georgia,serif; color: #333; font-size: 32px; font-weight: 500; text-shadow: 0 2px 1px rgba(255,255,255,.8); }
+    .page-footer .bucket p { color: #888; }
 
 .site-footer { border-top: 1px solid #d2d2d2; overflow: hidden; padding-bottom: 20px; }
     .site-footer .copyright { float: left; color: #666; font-size: 11px; margin-right: 20px; display: block; }
